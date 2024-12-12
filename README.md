@@ -1,6 +1,12 @@
 ### Smart TODO
 
-#### TODO
+Rodando o server
+
+De dentro da pasta `smart-todo` rode o comando abaixo no `git bash`
+
+```
+node server\server.js
+```
 
 ##### Frontend
 
