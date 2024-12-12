@@ -14,6 +14,7 @@
     - [ ] Status - Open
     - [ ] Status - Archived
     - [ ] Status - Closed
+  - [ ] Ordenação
   - [ ] Item List
     - [ ] Item
       - [ ] Title
