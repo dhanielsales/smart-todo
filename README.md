@@ -3,11 +3,13 @@
 #### TODO
 
 ##### Frontend
+
 - [ ] Main page
+
   - [ ] Header
     - [ ] Logo
     - [ ] Avatar
-  - [ ] Tabs
+  - [ ] Filtro
     - [ ] Status - All
     - [ ] Status - Open
     - [ ] Status - Archived
@@ -22,14 +24,16 @@
   - [ ] Footer
 
 - [ ] Login page
-  - [ ] Form 
+
+  - [ ] Form
     - [ ] Email
     - [ ] Password
     - [ ] Forgot Password
     - [ ] Go to Register
 
 - [ ] Regiter page
-  - [ ] Form 
+
+  - [ ] Form
     - [ ] Name
     - [ ] Email
     - [ ] Password
@@ -37,9 +41,11 @@
     - [ ] Go to login
 
 - [ ] Profile page (Plus)
-  - [ ] Edit profile 
+  - [ ] Edit profile
     - [ ] Name
     - [ ] Email
     - [ ] Password
 
-####[Link] (https://dribbble.com/shots/22373497-Create-a-task-Interaction)
+#### [Link](https://dribbble.com/shots/22373497-Create-a-task-Interaction)
+
+#### [Link header](https://dribbble.com/shots/18404881-Fashion-Website)
