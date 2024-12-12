@@ -8,6 +8,9 @@ De dentro da pasta `smart-todo` rode o comando abaixo no `git bash`
 node server\server.js
 ```
 
+depois de rodar, deve mostrar a mensagem `Servidor iniciado`
+Acesse http://localhost:3000/login ou outra pagina
+
 ##### Frontend
 
 - [ ] Main page
