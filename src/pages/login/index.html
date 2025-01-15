@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    Login
+    <div class="corpo">
+      <div class="decorativa">
+        <H1>primeira parte do corpo </H1>
+      </div>
+      <div class="acesso">
+        <h1>Login</h1>
+        <form>
+          <!-- Define um formulário HTML q é usado para coletar informação do usuário-->
+            <label for="email">Email:</label>
+          <!-- Label é pra criar o rótulo da entrada de dados, no caso é a caixa do e-mail, onde adivinha, o usuário vai inserir o e-mail -->
+            <input type="email" id="email" name="email" required>
+          <!-- Input é onde o dado do formulário vai ser inserido, no caso o usuário vai inserir no input o dado que for identificado no label -->
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Entrar</button>
+        </form>
+        <p>Não tem uma conta? <a href="#">Cadastre-se</a></p> 
+        <!-- FALTA INSERIR O LINK DA PÁGINA DE REGISTRO -->
+    </div>
+  <script src="script.js"></script>
   </body>
 </html>
+
