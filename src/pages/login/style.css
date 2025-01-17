@@ -18,16 +18,23 @@ html, body {
 }
 
 .decorativa {
-    background-color: #77C4FCff;
+    background-image: url(livros.gif);
+    background-color: #cb9e62;
+    background-size: 100%; /*Proporções do GIF */
+    background-position: center; /* Centraliza o GIF */
+    background-repeat: no-repeat; /* Evita repetição do GIF */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
     width: 100%;
     height: 100vh;
+
 }
 
-.decorativa.rodape {
+.decorativatexto {
+    text-shadow: 0px 0px 5px #eb6a0d;
+
 
 }
 
@@ -57,9 +64,9 @@ input {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #cb9e62;
     color: white;
     padding: 10px 20px;
-    border: none;
+    border-radius: 15%;
     cursor: pointer;
 }
