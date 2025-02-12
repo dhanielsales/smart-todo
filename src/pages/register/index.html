@@ -3,9 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Registre-se</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    Register
+    <div class="corpo">
+      <div class="tema">
+        <div class="titulo1">
+          <h2>Organize-se e vá ainda mais longe.</h2>
+        </div>
+        <div class="lista">
+          <ul>
+            <li>Alcance seus objetivos!</li>
+            <li>Evite estresse e sobrecarga!</li>
+            <li>Priorize seu tempo!</li>
+          </ul>
+        </div>
+        <p class="copy">&copy; DNM produtos tecnologicos LTDA</p>
+      </div>
+      <div class="registro">
+        <h1 class="titulo2">Crie sua conta!</h1>
+        <form>
+          <div class="nomes">
+          <div class="nome1">
+            <label>Nome:</label>
+            <input type="text" id="name">
+          </div>
+          <div class="nome2">
+            <label>Sobrenome:</label>
+            <input type="text" id="surname">
+          </div>
+          </div>
+            <label>Data de nascimento:</label>
+            <input type="date" id="birthday">
+            <label>e-mail:</label>
+            <input type="email" id="email">
+            <label>Senha:</label>
+            <input type="password" id="password">
+            <label>Confirme sua senha:</label>
+            <input type="password" id="confirmpassword">
+        </form>
+        <div class="rodape">
+            <input type="checkbox">
+            <p class="termos"> Ao clicar neste botão você aceita os nossos termos de uso e politica de privacidade. <a href="https://www.gov.br/anatel/pt-br/assuntos/dicas-contra-fraudes" target="_blank">Conheça nossos termos e condições</a></p>
+        </div>
+            <button type="submit" >Criar Conta</button>
+          <p>Já possui conta? <a href="../login/index.html">Acesse</a></p> 
+      </div>
+    </div>
   </body>
 </html>
