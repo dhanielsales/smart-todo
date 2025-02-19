@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;   
+}
+
+header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#corpo1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+
+#saudacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0%;
+}
+
+#corpo2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: chocolate;
+}
