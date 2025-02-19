@@ -19,12 +19,12 @@ html, body {
 }
 
 .titulo1{
-    font-size: 50px;
+    font-size: 2rem;
     padding: 20px;
 }
 
 .lista{
-    font-size: 25px;
+    font-size: 1rem;
 }
 
 .copy{
@@ -32,7 +32,8 @@ html, body {
 }
 
 .titulo2 {
-    margin: 50px;
+    padding: 2rem;
+    display: flex;
 }
 
 form {
@@ -53,9 +54,9 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100vh;
     width: 100%;
+    overflow: auto;
 }
 
 .nomes{
@@ -93,7 +94,7 @@ input {
 }
 
 .termos{
-    font-size: 8px;
+    font-size: 0.5rem;
     text-align: start;
 }
 
