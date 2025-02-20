@@ -35,20 +35,20 @@ Acesse http://localhost:3000/login ou outra pagina
 
 - [ ] Login page
 
-  - [ ] Form
-    - [ ] Email
-    - [ ] Password
+  - [] Form
+    - [X] Email
+    - [X] Password
     - [ ] Forgot Password
-    - [ ] Go to Register
+    - [X] Go to Register
 
-- [ ] Regiter page
+- [X] Regiter page
 
-  - [ ] Form
-    - [ ] Name
-    - [ ] Email
-    - [ ] Password
-    - [ ] Confirm Password
-    - [ ] Go to login
+  - [X] Form
+    - [X] Name
+    - [X] Email
+    - [X] Password
+    - [X] Confirm Password
+    - [X] Go to login
 
 - [ ] Profile page (Plus)
   - [ ] Edit profile
