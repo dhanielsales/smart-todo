@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
-    
+
 }
 
 .tema {
@@ -13,21 +14,21 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     width: 100%;
     height: 100vh;
 }
 
-.titulo1{
+.titulo1 {
     font-size: 2rem;
     padding: 20px;
 }
 
-.lista{
+.lista {
     font-size: 1rem;
 }
 
-.copy{
+.copy {
     font-size: 10px;
 }
 
@@ -37,10 +38,16 @@ html, body {
 }
 
 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-content {
     width: 300px;
 }
 
-.corpo{
+.corpo {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -50,7 +57,7 @@ form {
     height: 100vh;
 }
 
-.registro{
+.registro {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,22 +66,22 @@ form {
     overflow: auto;
 }
 
-.nomes{
+.nomes {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
 }
 
-.nome1{
+.nome1 {
     display: flex;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     margin-right: 20px;
 }
 
-.nome2{
+.nome2 {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -93,19 +100,20 @@ input {
     border: 1px solid #ccc;
 }
 
-.termos{
-    font-size: 0.5rem;
+.termos {
+    font-size: 0.8rem;
     text-align: start;
 }
 
-.rodape{
+.rodape {
+    /* max-width: 70%; */
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     flex-direction: row;
 }
 
-.rodape input{
+.rodape input {
     width: 10%;
     padding: 5px;
     margin-bottom: 10px;
